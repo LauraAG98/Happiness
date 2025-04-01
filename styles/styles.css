@@ -25,6 +25,10 @@ header {
     width: 90%;
 }
 
+#logo {
+    height: 50px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -619,16 +623,22 @@ footer {
 #ubicaLogoInfo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 300px;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 400px;
+    width: 100%;   
 }
 
 #ubicaImg {
     display: flex;
     justify-content: end;
-    align-items: start;
-    height: 150px;
-    width: 200px;    
+    align-items: center;
+    height: 20%;
+    width: 150px;
+}
+
+#logoBlanco {
+    height: 90px;
 }
 
 #listaComple {
@@ -645,6 +655,7 @@ footer {
     flex-direction: column;
     font-size: 20px;
     line-height: 25px;
+    list-style: none;
 }
 
 .lista {
@@ -659,6 +670,7 @@ footer {
     flex-direction: column;
     font-size: 20px;
     line-height: 25px;
+    list-style: none;
     height: 98px;
 }
 
@@ -703,10 +715,207 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     width: 200px;
-    
 }
 
 .tamaño {
     height: 25px;
 }
 
+@media (max-width: 1279px){
+    #img1 {
+        height: 350px;
+    }
+
+    #infoCuadro {
+        justify-content: space-between;
+        height: 280px;
+    }
+
+    #titulo1 {
+        line-height: 60px;
+        font-size: 70px;
+        height: 150px;
+        width: 300px;
+    }
+
+    #textoCuadro1 {
+        height: 150px;
+        width: 350px;
+    }
+
+    #infoCuadroSeg {
+        justify-content: space-evenly;
+        height: 400px;
+    }
+
+    #tituloSeg {
+        font-size: 70px;
+        line-height: 70px;
+        height: 100px;
+    }
+
+    #textoCuadroSeg {
+        height: 70px;
+        width: 300px;
+    }
+
+    #divImg {
+        display: flex;
+        align-items: flex-end;
+        height: 540px;
+    }
+
+    #img2 {
+        margin-left: -180px;
+        height: 320px;
+    }
+
+    #cuadroGris2 {
+        width: 90%;
+    }
+
+    #tamañoImg {
+        height: 500px;
+    }
+
+    img {
+        height: 400px;
+    }
+
+    #infoCuadro4 {
+        width: 30%;
+    }
+
+    #titulo4 {
+            width: 300px;
+    }
+
+    #img5 {
+        height: 400px;
+    }
+
+    #infoCuadro5 {
+        width: 40%;
+    }
+
+    #img6 {
+        height: 400px;
+    }
+
+    #infoCuadro6 {
+        width: 30%;
+    }
+
+    #titulo6 {
+        width: 300px;
+    }
+
+    #textoCuadro6 {
+        width: 280px;
+    }
+
+    #seccion7 {
+        height: 680px;
+    }
+
+    #infoDivAmarillo {
+        height: 650px;
+    }
+
+    #map {
+        height: 350px;
+    }
+
+    #ubicaLogoInfo {
+        width: 100%;
+    }
+
+    #listaComple {
+        width: 40%;
+    }
+}
+
+@media (max-width: 920px) {
+    #primera {
+        height: 1500px;
+    }
+
+    #cuadro1 {
+        height: 500px;
+    }
+
+    #fondo {
+        top: calc(100% - 80px);
+    }
+
+    #img1 {
+        height: 300px;
+    }
+
+    #titulo1 {
+        font-size: 50px;
+        width: 200px;
+    }
+
+    #textoCuadro1 {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #cuadroEncima {
+        justify-content: space-evenly;
+    }
+
+    #subtitulo {
+        font-size: 40px;
+        width: 150px;
+    }
+
+    #textoCuaEncima {
+        font-size: 14px;
+        width: 150px;
+    }
+
+    #imgEncima{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 300px;
+    }
+
+    .imgCuaEnc {
+       height: 120px;
+    }
+
+    #segunda {
+        height: 800px;
+    }
+
+    #infoCuadroSeg {
+        height: 500px;
+    }
+
+    #tituloSeg {
+        line-height: 50px;
+        font-size: 60px;
+        height: 40px;
+        width: 350px;
+    }
+
+    #textoCuadroSeg {
+        font-size: 15px;
+        height: 100px;
+        width: 200px;
+    }
+
+    #divImg {
+        height: 280px;
+    }
+
+    #img2 {
+        margin-left: -100px;
+        height: 250px;
+    }
+
+
+}
