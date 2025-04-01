@@ -1,0 +1,709 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#fondoAmarillo {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 217, 0);
+    height: 80px;
+    width: 100%;
+}
+
+#infoLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;  
+}
+
+#barraNav {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+#primera {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1700px;
+}
+
+#cuadro1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+#img1 {
+    height: 450px;
+}
+
+#infoCuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+}
+
+#titulo1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 80px;
+    font-size: 90px;
+    height: 180px;
+    width: 400px;
+}
+
+#textoCuadro1 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 450px;
+}
+
+#boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(255, 217, 0);
+    height: 35px;
+    width: 120px;
+}
+
+#segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 217, 0);
+    height: 850px;
+}
+
+#infoCuadroSeg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+}
+
+#tituloSeg {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 80px;
+    font-size: 90px;
+    height: 180px;
+    width: 500px;
+}
+
+#textoCuadroSeg {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120px;
+    width: 370px;
+}
+
+#botonSeg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color:black;
+    height: 35px;
+    width: 120px;
+}
+
+#divImg {
+    display: flex;
+    align-items: flex-end;
+    height: 650px;
+}
+
+#img2 {
+    margin-left: -90px;
+    height: 400px;
+}
+
+#seccion1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuadroEncima {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+#fondo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 223, 223);
+    box-shadow: 25px 30px 80px -50px;
+    top: 80%;
+    height: 330px;
+    width: 70%;
+}
+
+#cuadroEncima {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#infoCuaEncima {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#subtitulo {
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    color:rgb(255, 217, 0);
+    line-height: 45px;
+    width: 200px;
+}
+
+#textoCuaEncima {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+}
+
+#flecha {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#imgEncima {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.imgCuaEnc {
+    height: 160px;
+}
+
+#seccion2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+#cuadroGris2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(224, 223, 223);
+    box-shadow: 25px 50px 90px -30px;
+    width: 75%;
+}
+
+#tamañoImg {
+    height: 600px;
+}
+
+#infoCuaGris {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 40%;
+}
+
+#titulo3 {
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+    color:rgb(255, 217, 0);
+    width: 100%;
+}
+
+#textoCuaGris {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120px;
+    width: 300px;
+}
+
+#boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(202, 202, 202);
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color:black;
+    height: 35px;
+    width: 120px;
+}
+
+#ubicacionImg {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+}
+
+#tamañoImg1 {
+    display: flex;
+    height: 200px;
+}
+
+#seccion3 {
+    display: flex;
+    background-color: black;
+    height: 850px;
+}
+
+#infoDivNegro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#subtituloDivNegro {
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    color:rgb(255, 217, 0);
+    height: 10px;
+}
+
+#textoDivNegro {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 10px;
+    width: 700px;
+}
+
+#seccion4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+#cuadroSecc4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+#img5 {
+    height: 450px;
+}
+
+#infoCuadro4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#titulo4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 80px;
+    font-size: 60px;
+    height: 80px;
+    width: 400px;
+}
+
+#textoCuadro4 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120px;
+    width: 300px;
+}
+
+#boton4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(255, 217, 0);
+    height: 35px;
+    width: 120px;
+}
+
+#seccion5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(224, 223, 223);
+    height: 600px;
+}
+
+#cuadroSecc5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+#img6 {
+    height: 450px;
+}
+
+#infoCuadro5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#titulo5 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 60px;
+    font-size: 70px;
+    height: 140px;
+    width: 400px;
+}
+
+#textoCuadro5 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 130px;
+    width: 370px;
+}
+
+#boton5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(255, 217, 0);
+    height: 35px;
+    width: 120px;
+}
+
+#cuadroSecc6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+#cuadroNegro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 450px;
+    width: 490px;
+}
+
+#nomApell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#nombSurn {
+    display: flex;
+    flex-direction: column;
+}
+
+#ingresarInf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 290px;
+    width: 90%;
+}
+
+.letraInf1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    height: 25px;
+}
+
+.letraInf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    height: 10px;
+}
+
+#colorCua {
+    display: flex;
+    flex-direction: row;
+    border-color:white;
+    background-color: transparent;
+    height: 20px;
+    width: 200px;
+}
+
+.colorCua {
+    border-color:white;
+    background-color: transparent;
+    height: 20px;
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+    resize: none;
+    border-color:white;
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+}
+
+#textoNe {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 90%;
+}
+
+#infoCuadro6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+#titulo6 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 50px;
+    font-size: 50px;
+    color: rgb(255, 217, 0);
+    height: 100px;
+    width: 400px;
+}
+
+#textoCuadro6 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 300px;
+}
+
+#boton6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: black;
+    height: 35px;
+    width: 150px;
+}
+
+#seccion7 {
+    display: flex;
+    background-color: rgb(255, 217, 0);
+    height: 850px;
+}
+
+#infoDivAmarillo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#subtituloDivAmarillo {
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    color:black;
+    height: 10px;
+}
+
+#textoDivAmarillo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    height: 10px;
+    width: 700px;
+}
+
+#boton7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color:black;
+    height: 35px;
+    width: 120px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 800px;
+}
+
+#ubicaLogoInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+#ubicaImg {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    height: 150px;
+    width: 200px;    
+}
+
+#listaComple {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 50%;
+    width: 25%;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.lista {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
+
+#column2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 25px;
+    height: 98px;
+}
+
+#ubicaLinea {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 200px;
+}
+
+#lineaSepa {
+    display: flex;
+    background-color: white;
+    height: 1px;
+    width: 92%;
+}
+
+#final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 15%;
+    width: 100%;
+}
+
+#espacio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+}
+
+#textoF {
+    color: rgb(255, 217, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+
+.tamaño {
+    height: 25px;
+}
+
