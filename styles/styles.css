@@ -655,7 +655,6 @@ footer {
     flex-direction: column;
     font-size: 20px;
     line-height: 25px;
-    list-style: none;
 }
 
 .lista {
@@ -670,8 +669,11 @@ footer {
     flex-direction: column;
     font-size: 20px;
     line-height: 25px;
-    list-style: none;
     height: 98px;
+}
+
+ul {
+    list-style: none;
 }
 
 #ubicaLinea {
@@ -917,5 +919,349 @@ footer {
         height: 250px;
     }
 
+    #cuadroGris2 {
+        height: 450px;
+        width: 95%;
+    }
+
+    #infoCuaGris {
+        height: 450px;
+    }
+
+    #titulo3 {
+        font-size: 40px;
+        width: 170px;
+    }
+
+    #textoCuaGris {
+        font-size: 14px;
+        height: 100px;
+        width: 200px;
+    }
+
+    #tamañoImg {
+        height: 450px;
+    }
+
+    #titulo4 {
+        width: 200px;
+    }
+
+    #tamañoImg1 {
+        height: 150px;
+    }
+
+    #img5 {
+        height: 350px;
+    }
+
+    #textoCuadro4 {
+        width: 250px;
+    }
+
+    #seccion5 {
+        align-items: center;
+    }
+
+    #cuadroSecc5 {
+        width: 90%;
+    }
+
+    #titulo5 {
+        font-size: 50px;
+        line-height: 40px;
+        width: 300px;
+    }
+
+    #textoCuadro5 {
+        font-size: 14px;
+        width: 250px;
+    }
+
+    #img6 {
+        height: 350px;
+    }
+
+    #infoCuadro6 {
+        height: 350px;
+    }
+
+    #titulo6 {
+        font-size: 35px;
+        line-height: 40px;
+        height: 50px;
+        width: 230px;
+    }
+
+    #textoCuadro6 {
+        font-size: 14px;
+        width: 220px;
+    }
+
+    #cuadroNegro {
+        width: 400px;
+    }
+
+    #colorCua {
+        width: 170px;
+    }
+
+    #map {
+        height: 300px;
+    }
+
+    .lista{
+        font-size: 16px;
+    }
+
+    #column2 {
+        height: 101px;
+    }
+
+    #textoF {
+        font-size: 12px;
+    }
+
+    #redes {
+        width: 150px;
+    }
+
+    .tamaño {
+        height: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    #primera {
+        height: 1900px;
+    }
+
+    #cuadro1 {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    #img1 {
+       height: 350px;
+    }
+
+    #infoCuadro {
+        align-items: center;
+        height: 250px;
+        width: 80%;
+    }
+
+    #titulo1 {
+        text-align: center;
+        font-size: 50px;
+        line-height: 40px;
+        height: 80px;
+    }
+
+    #textoCuadro1 {
+        text-align: center;
+        height: 100px;
+        width: 90%;
+    }
+
+    #segunda {
+        height: 600px;
+    }
+
+    #fondo {
+        height: 350px;
+        width: 90%;
+    }
+
+    #cuadroEncima {
+        flex-direction: column;
+        height: 330px;
+    }
+
+    #imgEncima {
+        flex-direction: row;
+    }
+
+    #infoCuaEncima {
+        align-items: center;
+        width: 300px;
+    }
+
+    #subtitulo {
+        text-align: center;
+        line-height: 40px;
+    }
+
+    #textoCuaEncima {
+        text-align: center;
+    }
+
+    #imgEncima {
+        height: 150px;
+        width: 100%;
+    }
+
+    .imgCuaEncima {
+        height: 20px;
+    }
+
+    #segunda {
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+    }
+
+    #infoCuadroSeg {
+        justify-content: space-around;
+        align-items: center;
+        height: 250px;
+    }
+
+    #tituloSeg {
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        width: 400px;
+    }
+
+    #textoCuadroSeg {
+        text-align: center;
+        height: 100px;
+        width: 400px;
+    }
+
+    #divImg {
+        width: 37%;
+    }
+
+    #seccion2 {
+        height: 1000px;
+    }
+
+    #cuadroGris2 {
+        flex-direction: column;
+        justify-content: center;
+        height: 900px;
+    }
+
+    #tamañoImg {
+        height: 450px;
+    }
+
+    #infoCuaGris {
+        width: 80%;
+    }
+
+    #textoCuaGris {
+        width: 300px;
+    }
+
+    #ubicacionImg {
+        width: 95%;
+    }
+
+    #seccion3 {
+        height: 750px;
+    }
+
+    #infoDivNegro {
+        height: 750px;
+    }
+
+    #textoDivNegro {
+        width: 300px;
+    }
+
+    img {
+        height: 250px;
+    }
+
+    #seccion4 {
+        justify-content: center;
+        height: 800px;
+    }
+
+    #cuadroSecc4 {
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+    }
+
+    #infoCuadro4 {
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    #textoCuadro4 {
+        text-align: center;
+        height: 100px;
+        width: 300px;
+    }
+
+    #img5 {
+        height: 350px;
+    }
+
+    #seccion5 {
+        height: 800px;
+    }
+
+    #cuadroSecc5 {
+        flex-direction: column;
+        height: 700px;
+        width: 100%;
+    }
+
+    #infoCuadro5 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #titulo5 {
+        text-align: center;
+        line-height: 50px;
+    }
+
+    #textoCuadro5 {
+        text-align: center;
+    }
+
+    #img6 {
+        height: 350px;
+    }
+
+    #cuadroSecc6 {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    #infoCuadro6 {
+        align-items: center;
+    }
+
+    #titulo6 {
+        text-align: center;
+    }
+
+    #textoCuadro6 {
+        text-align: center;
+    }
+
+    #textoDivAmarillo {
+        width: 300px;
+    }
+
+    #map {
+        height: 200px;
+    }
+    #listaComple {
+        width: 300px;
+    }
+}
+
+@media (max-width: ) {
 
 }
