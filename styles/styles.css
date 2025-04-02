@@ -35,7 +35,7 @@ nav {
     width: 350px;  
 }
 
-#barraNav {
+.barraNav {
     color: black;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -1262,6 +1262,167 @@ ul {
     }
 }
 
-@media (max-width: ) {
+@media (max-width: 480px) {
+    #infoLogo {
+        width: 95%;
+    }
 
+    nav {
+        width: 240px;
+    }
+
+    #logo {
+        height: 50px;
+    }
+
+    .barraNav {
+        font-size: 12px;
+    }
+
+    #primera {
+        height: 1500px;
+    }
+
+    #img1 {
+        height: 250px;
+    }
+
+    #cuadro1 {
+        height: 600px;
+    }
+
+    #infoCuadro {
+        height: 280px;
+    }
+
+    #titulo1 {
+        font-size: 40px;
+    }
+
+    #fondo {
+        top: calc(100% - 60px);
+    }
+
+    #segunda {
+        justify-content: space-evenly;
+        height: 700px;
+    }
+
+    #infoCuadroSeg {
+        justify-content: end;
+        height: 500px;
+    }
+
+    #subtitulo {
+        font-size: 35px;
+    }
+    
+    #tituloSeg {
+        font-size: 30px; 
+        line-height: 30px;
+        height: 90px;
+        width: 180px;
+    }
+
+    #textoCuadroSeg {
+        font-size: 13px;
+        height: 100px;
+        width: 300px;
+    }
+
+    #divImg {
+        height: 240px;
+        width: 28%;
+    }
+
+    #img2 {
+        height: 200px;
+    }
+
+    #tamañoImg {
+        height: 350px;
+    }
+
+    #textoCuaGris {
+        width: 250px;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    #seccion3 {
+        height: 700px;
+    }
+
+    #img5 {
+        height: 270px;
+    }
+
+    #titulo4 {
+        text-align: center;
+        font-size: 40px; 
+    }
+
+    #titulo5 {
+        font-size: 40px; 
+        line-height: 40px;
+    }
+
+    #img6 {
+        height: 300px;
+    }
+
+    #seccion7 {
+        height: 500px;
+    }
+
+    #infoDivAmarillo {
+        height: 500px;
+    }
+
+    #cuadroNegro {
+        width: 90%;
+    }
+
+    #cuadroSecc6 {
+        justify-content: center;
+    }
+
+    #colorCua {
+        width: 130px;
+    }
+
+    #nomApell {
+        justify-content: space-between;
+        width: 91%;
+    }
+
+    #infoCuadro6 {
+        width: 100%;
+    }
+
+    #subtituloDivAmarillo {
+        font-size: 35px;
+    }
+
+    #textoDivAmarillo {
+        font-size: 15px;
+    }
+
+    #map {
+        height: 150px;
+    }
+
+    footer {
+        height: 500px;
+    }
+
+    #logoBlanco {
+        height: 80px;
+    }
+
+    #final {
+        align-items: center;
+    }
 }
