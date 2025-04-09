@@ -500,6 +500,7 @@ nav {
     display: flex;
     flex-direction: row;
     border-color:white;
+    color:white;
     background-color: transparent;
     height: 20px;
     width: 200px;
@@ -507,6 +508,7 @@ nav {
 
 .colorCua {
     border-color:white;
+    color:white;
     background-color: transparent;
     height: 20px;
 }
@@ -516,6 +518,7 @@ nav {
     flex-direction: column;
     resize: none;
     border-color:white;
+    color:white;
     background-color: transparent;
     height: 100px;
     width: 100%;
